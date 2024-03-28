@@ -1,0 +1,9 @@
+a={"apple","banana","cherry"}
+b={"cherry","potato","tomato"}
+#difference
+x=a.difference(b)
+print(x)
+y=a.symmetric_difference(b)
+print(y)
+z=a.intersection(b)
+print(z)

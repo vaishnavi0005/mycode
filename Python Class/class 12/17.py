@@ -1,0 +1,9 @@
+a={"apple","banana","cherry"}
+b={"cherry","potato","tomato"}
+#difference
+a.difference_update(b)
+print(a)
+a.symmetric_difference_update(b)
+print(a)
+a.intersection_update(b)
+print(a)
